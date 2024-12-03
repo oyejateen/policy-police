@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Policy Analyzer",
+  "version": "1.0",
+  "description": "Analyze and summarize privacy policies, terms of service, and cookie policies using Google's Gemini Neno AI",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "css": ["styles/content.css"],
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "default_title": "Analyze Policy"
+  }
+} 
