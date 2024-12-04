@@ -1,4 +1,4 @@
-# Policy Analyzer - Chrome Extension
+# Policy Police - Chrome Extension
 
 ## Introduction
 
