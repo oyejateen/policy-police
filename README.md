@@ -33,4 +33,4 @@ This Google Chrome extension provides a comprehensive analysis of website privac
 
 ## Support
 
-For any questions or feedback, please contact policyanalyzer@example.com.
+For any questions or feedback, please open a issue.
